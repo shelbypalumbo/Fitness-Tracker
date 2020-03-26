@@ -1,2 +1,2 @@
 # Workout-Tracker
-A workout logging application allowing user to view, add, and track daily workouts.
+A workout logging application allowing users to view, add, and track daily workouts.
