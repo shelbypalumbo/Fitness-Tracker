@@ -12,15 +12,17 @@
 
 <body>
   <nav>
-    <a href="/">Fitness Tracker</a>
+    <a href="/">Fitness Tracker</a>  &nbsp; &nbsp; &nbsp; 
     <a href="/stats">Dashboard</a>
   </nav>
   <div class="wrapper workout">
     <header>
       <h1>Fitness Tracker</h1>
     </header>
+    <!----------Main workout container--------->
     <div class="ui container workout">
       <div class="ui raised card m-auto">
+        <!------Previous workout------->
         <div class="prev-workout">
           <h3>Last Workout</h3>
           <div>
@@ -31,6 +33,7 @@
             </div>
           </div>
         </div>
+        <!------Add a new workout-------->
         <div class="new-workout">
           <h3>Create Your First Workout</h3>
         </div>
@@ -38,9 +41,13 @@
     </div>
   </div>
   </div>
+
+  <!------Workout Success Banner-->
   <div id="toast">
     Workout Added Successfully!
   </div>
+
+  <!-------Script Files--------->
   <script src="/api.js"></script>
   <script src="/workout.js"></script>
   <script src="/index.js"></script>
