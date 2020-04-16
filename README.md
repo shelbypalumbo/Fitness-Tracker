@@ -39,8 +39,3 @@ Users of the Workout Tracker have the option to create a new workout, continue a
 - Javascript
 - HTML
 - CSS
-
-### Additional Styling Framework
-
-- Bootstrap | https://getbootstrap.com/
-- Fontsawesome icons | https://fontawesome.com/icons?d=gallery&m=free
