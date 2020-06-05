@@ -32,15 +32,15 @@ mongoose.connect(MONGODB_URI);
 //============Routes=========================
 //Route to the main page
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname + "/public/index.html"));
+  res.sendFile(path.join(__dirname + "/public/pages/index.html"));
 });
 // Route to the exercises form
 app.get("/exercise", (req, res) => {
-  res.sendFile(path.join(__dirname + "/public/exercise.html"));
+  res.sendFile(path.join(__dirname + "/public/pages/exercise.html"));
 });
 // Route to the stats page
 app.get("/stats", (req, res) => {
-  res.sendFile(path.join(__dirname + "/public/stats.html"));
+  res.sendFile(path.join(__dirname + "/public/pages/stats.html"));
 });
 
 //------Create a new workout-----------------
