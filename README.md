@@ -1,8 +1,8 @@
 # Fitness-Tracker
 
 A workout logging application that allows users to create, add to, view, and track daily workout routines.
-<br>
-https://murmuring-retreat-60695.herokuapp.com/
+
+Deployed Application: https://murmuring-retreat-60695.herokuapp.com/
 
 ## User Story
 
