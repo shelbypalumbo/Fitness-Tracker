@@ -19,7 +19,7 @@ body,
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fcdcef;
+  background-color: #f7d5e5;
 }
 
 .navbar {
@@ -41,7 +41,7 @@ a:visited {
 }
 
 a:hover {
-  color: whitesmoke;
+  color: #cccccc;
 }
 
 a.homepage_link {
@@ -49,6 +49,10 @@ a.homepage_link {
   font-size: 30px;
   margin-left: 50px;
   color: #81c9bb;
+}
+
+a.homepage_link:hover {
+  color: #cccccc;
 }
 
 a.dash_link {
@@ -395,6 +399,11 @@ form > button {
 .ui.positive.button {
   background-color: #23d0b0;
   text-align: center;
+}
+
+.ui.positive.button:hover,
+#continue-btn:hover {
+  background-color: #a0e5d9;
 }
 
 #continue-btn {
