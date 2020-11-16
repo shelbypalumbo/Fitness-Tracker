@@ -372,7 +372,7 @@ form > button {
 }
 
 .ui.button {
-  padding: 2rem;
+  padding: 20px;
 }
 
 .ui.raised.card {
@@ -491,5 +491,8 @@ form > button {
   a.dash_link {
     margin-top: -50px;
     margin-bottom: 30px;
+  }
+  .buttons .ui.button {
+    font-size: 1.1rem;
   }
 }

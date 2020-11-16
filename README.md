@@ -18,18 +18,6 @@ Users of the Workout Tracker have the option to create a new workout, continue a
 
 <hr/>
 
-#### Add a workout
-
-![Add View](./public/images/add.png)
-
-<hr/>
-
-#### View your weekly workout data
-
-![Dash View](./public/images/dash.png)
-
-<hr/>
-
 ## Technologies Used
 
 - Mongoose
